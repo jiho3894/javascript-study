@@ -1,0 +1,27 @@
+a {
+    text-decoration: none;
+}
+
+
+li {
+    color: rgb(11, 145, 28);
+}
+
+h1 {
+    font-size:50px;
+    border-bottom: 2px solid #888;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.list {
+    border-right: 2px solid #888;
+    width: 200px;
+    margin: 0;
+}
