@@ -23,4 +23,7 @@ show port-security int fa0/1
 
 ![5](https://user-images.githubusercontent.com/79081800/115496865-86373280-a2a5-11eb-8e62-1d494939b502.png)
 ![6](https://user-images.githubusercontent.com/79081800/115496867-87685f80-a2a5-11eb-8f0e-ec3b4eb390f0.png)
+
+switchport mode trunk
+
 ![7](https://user-images.githubusercontent.com/79081800/115496870-8800f600-a2a5-11eb-9177-ac95b23846ac.png)
