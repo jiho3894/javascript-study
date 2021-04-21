@@ -31,3 +31,8 @@ switchport mode trunk
 show interfaces trunk
 
 int fa0/1 들어가서 switchport trunk allowed vlan remove 5
+
+![8](https://user-images.githubusercontent.com/79081800/115497243-3f960800-a2a6-11eb-9546-69003e36e108.png)
+![9](https://user-images.githubusercontent.com/79081800/115497244-402e9e80-a2a6-11eb-93b2-9c3ea6b74c4b.png)
+![10](https://user-images.githubusercontent.com/79081800/115497246-40c73500-a2a6-11eb-8ebe-e975b2444aae.png)
+
