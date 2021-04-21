@@ -27,3 +27,7 @@ show port-security int fa0/1
 switchport mode trunk
 
 ![7](https://user-images.githubusercontent.com/79081800/115496870-8800f600-a2a5-11eb-9177-ac95b23846ac.png)
+
+show interfaces trunk
+
+int fa0/1 들어가서 switchport trunk allowed vlan remove 5
