@@ -19,3 +19,8 @@ show port-security int fa0/1
 
 
 ![4](https://user-images.githubusercontent.com/79081800/115387417-9b648080-a215-11eb-9c5d-169ff4faa542.png)
+
+
+![5](https://user-images.githubusercontent.com/79081800/115496865-86373280-a2a5-11eb-8e62-1d494939b502.png)
+![6](https://user-images.githubusercontent.com/79081800/115496867-87685f80-a2a5-11eb-8f0e-ec3b4eb390f0.png)
+![7](https://user-images.githubusercontent.com/79081800/115496870-8800f600-a2a5-11eb-9177-ac95b23846ac.png)
