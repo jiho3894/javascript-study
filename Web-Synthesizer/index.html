@@ -7,7 +7,7 @@
     <title>Synth Piano</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <>
     <h1>Web-Synthesizer</h1>
     <section>
       <ul>
@@ -93,6 +93,7 @@
         </li>
       </ul>
     </section>
+      <input type="button" value="sound" onclick="playMusic()">
     <div class="goHome">
       <button>돌아가기</button>
     </div>
@@ -124,6 +125,11 @@
     <audio data-key="77"></audio>
     <audio data-key="188"></audio>
     <script src="sound.js"></script>
-    <script src="button.js"></script>
+    <script>
+      function playMusic(){
+      var music = new Audio("sound/1.mp3");
+      music.play();
+      }
+    </script>
   </body>
 </html>
