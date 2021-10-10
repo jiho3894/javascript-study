@@ -14,6 +14,17 @@ for (let i = 0; i < num.length; i++) {
 const numPick = shuffle.slice(0,6).sort((a,b) => a - b);
 const bonus = shuffle[6];
 
-h1.textContent = `심심해 : ${numPick}`;
-p.textContent = `놀아줘 : ${bonus}`;
+for(let i = 0; i < 6; i++){
+  setTimeout(() => {
+    const ball = document.createElement("div");
+    ball.className = "ball";
+    ball.textContent = numPick[i];
+    h1.appendChild(ball);
+  }, (i+1) * 1000);
+}
+
+setTimeout(() => {
+  p.textContent = `보너스 번호 : ${bonus}`;
+}, 7000);
+
 
